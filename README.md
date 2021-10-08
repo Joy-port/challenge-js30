@@ -8,4 +8,4 @@
 
 | No | 主題 | 筆記 | DEMO |
 | --- | --- | --- | --- |
-| 01 | JavaScript Drum Kit | [note](https://github.com/Joy-port/js30/tree/main/01) | [DEMO](https://joy-port.github.io/js30/01/) |
+| 01 | JavaScript Drum Kit | [note](https://github.com/Joy-port/js30/tree/main/01) | [DEMO](https://joy-port.github.io/js30/01/#) |
