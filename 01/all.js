@@ -1,4 +1,14 @@
 //bug 按不到 kbd 跟 有文字的 span 區塊
+window.onload = function(){
+    alert('Please check your volume before press the keyboard');
+    window.setTimeout(hideAlert(), 600000);
+}
+
+function hideAlert(){
+    console.log("run");
+    const alert = document.querySelector(".alert");
+    alert.classList.add('d-none'); // this = keys
+}
 
 
 //play with keys
@@ -48,3 +58,8 @@ function resetKeys(){
 }
     setInterval(resetKeys, 2000);   
 }));
+
+
+function hideVolumeAlert(){
+    alert.classList.add("d-none");
+};
