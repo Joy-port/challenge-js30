@@ -30,6 +30,18 @@
     margin: 0;
 }
 
+.time{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+}
+
 .clock {
     width: 300px;
     height: 300px;
@@ -38,6 +50,7 @@
 
     position: relative;
     z-index: 6;
+    transition: all .7;
 }
 
 .clock-face {

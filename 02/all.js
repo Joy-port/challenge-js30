@@ -3,6 +3,7 @@ const minHand = document.querySelector(".min-hand");
 const hrHand = document.querySelector(".hr-hand");
 const dateWord = document.querySelector(".date p");
 const dateNum = document.querySelector(".date span");
+const timeNum = document.querySelector(".time");
 
 
 function setTime(){
@@ -21,9 +22,15 @@ function setTime(){
 
     let hrNow = (hr / 12) * 360 + 90;
     hrHand.style.transform = `rotate(${hrNow}deg)`;
+
+    let str = `${hr}:${min}:${sec}`;
+    timeNum.innerHTML = str;
 }
 
+
 setInterval(setTime, 1000); //1sec
+
+
 
 function setDate(){
     const now = new Date();
