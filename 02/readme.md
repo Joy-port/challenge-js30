@@ -1,4 +1,4 @@
-###Clock
+### Clock
 
 learn 
 - css: `transform-origin: 100%;` 搭配 `transform: rotate(90deg);` 是以中心位置開始轉，而不是自轉
