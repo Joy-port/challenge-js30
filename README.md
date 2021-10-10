@@ -10,3 +10,4 @@
 | --- | --- | --- | --- |
 | 01 | JavaScript Drum Kit | [note](https://github.com/Joy-port/js30/tree/main/01) | [DEMO](https://joy-port.github.io/js30/01/#) |
 | 02 | JavaScript Clock | [note](https://github.com/Joy-port/js30/tree/main/02) | [DEMO](https://joy-port.github.io/js30/02/#) |
+| 03 | Update CSS with JS | [note](https://github.com/Joy-port/js30/tree/main/03) | [DEMO](https://joy-port.github.io/js30/03/#) |
