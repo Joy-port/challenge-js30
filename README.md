@@ -12,3 +12,4 @@
 | 02 | JavaScript Clock | [note](https://github.com/Joy-port/js30/tree/main/02) | [DEMO](https://joy-port.github.io/js30/02/#) |
 | 03 | Update CSS with JS | [note](https://github.com/Joy-port/js30/tree/main/03) | [DEMO](https://joy-port.github.io/js30/03/#) |
 | 04 | Array Cardio 1 | [note](https://github.com/Joy-port/js30/tree/main/04) | [DEMO](https://joy-port.github.io/js30/04/#) |
+| 05 | Flex Panel Gallery | [note](https://github.com/Joy-port/js30/tree/main/05) | [DEMO](https://joy-port.github.io/js30/05/#) |
