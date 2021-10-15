@@ -14,3 +14,4 @@
 | 04 | Array Cardio 1 | [note](https://github.com/Joy-port/js30/tree/main/04) | [DEMO](https://joy-port.github.io/js30/04/#) |
 | 05 | Flex Panel Gallery | [note](https://github.com/Joy-port/js30/tree/main/05) | [DEMO](https://joy-port.github.io/js30/05/#) |
 | 06 | Type Ahead AJAX | [note](https://github.com/Joy-port/js30/tree/main/06) | [DEMO](https://joy-port.github.io/js30/06/#) |
+| 07 | Array Cardio 2  | [note](https://github.com/Joy-port/js30/tree/main/07) | [DEMO](https://joy-port.github.io/js30/07/#) |
