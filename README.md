@@ -16,4 +16,4 @@
 | 06 | Type Ahead AJAX | [note](https://github.com/Joy-port/js30/tree/main/06) | [DEMO](https://joy-port.github.io/js30/06/#) |
 | 07 | Array Cardio 2  | [note](https://github.com/Joy-port/js30/tree/main/07) | [DEMO](https://joy-port.github.io/js30/07/#) |
 | 08 | HTML Canvas | [note](https://github.com/Joy-port/js30/tree/main/08) | [DEMO](https://joy-port.github.io/js30/08/#) |
-| 09 | HTML Canvas | [](https://github.com/Joy-port/js30/tree/main/09) | [DEMO](https://joy-port.github.io/js30/09/#) |
+| 09 | Console Tricks | [](https://github.com/Joy-port/js30/tree/main/09) | [DEMO](https://joy-port.github.io/js30/09/#) |
