@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-color: #efefef;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+.container{
+    margin: auto auto;
+    padding: 0;
+    list-style: none;
+    width: 70%;
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.lists{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding-left: 10px;
+
+}
+
+.lists p{
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.lists input{
+    width: 20px;
+    height: 20px;
+}
+
+
+input:checked + p {
+    background: #F9F9F9;
+    text-decoration: line-through;
+}
+
+.total{
+    margin: 0 auto;
+}
