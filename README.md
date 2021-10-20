@@ -19,3 +19,4 @@
 | 09 | Console Tricks | [](https://github.com/Joy-port/js30/tree/main/09) | [DEMO](https://joy-port.github.io/js30/09/#) |
 | 10 | Shift Key & Checkboxes | [](https://github.com/Joy-port/js30/tree/main/10) | [DEMO](https://joy-port.github.io/js30/10/#) |
 | 11 | Custom Video Player | [note](https://github.com/Joy-port/js30/tree/main/11) | [DEMO](https://joy-port.github.io/js30/11/#) |
+| 12 | Key Sequence Detection | [](https://github.com/Joy-port/js30/tree/main/12) | [DEMO](https://joy-port.github.io/js30/12/#) |
