@@ -25,5 +25,7 @@
 | 15 | LocalStorage | [](https://github.com/Joy-port/js30/tree/main/15) | [DEMO](https://joy-port.github.io/js30/15/#) |
 | 16 | Mouse Move Shadow | [](https://github.com/Joy-port/js30/tree/main/16) | [DEMO](https://joy-port.github.io/js30/16/#) |
 | 17 | Sorting Band Names without articles | [](https://github.com/Joy-port/js30/tree/main/17) | [DEMO](https://joy-port.github.io/js30/17/#) |
+| 18 | Adding Up Times with Reduce | [](https://github.com/Joy-port/js30/tree/main/18) | [DEMO](https://joy-port.github.io/js30/18/#) |
+
 
 
