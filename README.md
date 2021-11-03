@@ -22,4 +22,5 @@
 | 12 | Key Sequence Detection | [](https://github.com/Joy-port/js30/tree/main/12) | [DEMO](https://joy-port.github.io/js30/12/#) |
 | 13 | Slide in on Scroll | [](https://github.com/Joy-port/js30/tree/main/13) | [DEMO](https://joy-port.github.io/js30/13/#) |
 | 14 | JavaScript References VS Copying | [](https://github.com/Joy-port/js30/tree/main/14) | [DEMO](https://joy-port.github.io/js30/14/#) |
-| 16 | LocalStorage | [](https://github.com/Joy-port/js30/tree/main/16) | [DEMO](https://joy-port.github.io/js30/16/#) |
+| 15 | LocalStorage | [](https://github.com/Joy-port/js30/tree/main/15) | [DEMO](https://joy-port.github.io/js30/15/#) |
+| 16 | Mouse Move Shadow | [](https://github.com/Joy-port/js30/tree/main/16) | [DEMO](https://joy-port.github.io/js30/16/#) |
