@@ -1,0 +1,112 @@
+@mixin pc {
+    @media (min-width: 992px) {
+      @content ;
+    }
+  }
+  
+  @mixin pad {
+    @media (min-width: 768px) {
+      @content ;
+    }
+  }
+  @mixin mobile {
+    @media (min-width: 576px) {
+      @content ;
+    }
+  }
+  ul, ol{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  body{
+    font-family: 'Roboto Slab', serif, Roboto , sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  
+    margin: 0;
+  }
+  
+  .container{
+    background-image:url(images/drum.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+  }
+  .key-list{
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1rem ;
+  
+    @include pad{
+      justify-content: space-evenly;
+      flex-wrap: nowrap;
+    }
+  }
+  
+  .key{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    color: #fff;
+    padding: 1rem;
+    border: 2px solid rgba(0,0,0,1.5);
+    border-radius: 5px ;
+    background: rgba(0,0,0,.2);
+    width: 50px;
+    white-space: nowrap;
+    user-select: none;
+    transition: all .07s ease-in-out;
+    kbd{
+      font-weight: 500;
+      font-size: 1.5rem;
+      -webkit-text-stroke: .25px rgb(136, 169, 173);
+  
+    }
+ 
+
+    &:hover{
+        box-shadow: 0 0 2px 5px rgba(100, 100, 100 , 0.2);
+    }
+  }
+  
+  .active{
+    transform: scale(1.2);
+    text-shadow: 1px 1px 3px #ffffff, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    box-shadow: 0 0 2px 5px rgba(100, 100, 100 , 0.2);
+  }
+
+  .alert{
+    letter-spacing: 1px;
+    color: #fff;
+    position: absolute;
+    background-color: rgba(0,0,0,.2);
+    display: block;
+    border-radius: 12px;
+    border: 1px solid #efefef;
+    padding: .5rem;
+    white-space: nowrap;
+    top: 20%;
+    left:50%;
+    transform: translateX(-50%);
+
+    transform: all 200000s ease;
+  }
+
+  .d-none{
+    opacity: 0;
+  }
+

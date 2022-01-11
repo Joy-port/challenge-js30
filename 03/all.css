@@ -1,0 +1,99 @@
+:root{
+    --color : #FFCC66;
+    --spacing: 10px;
+    --blur: 0px;
+    --radius: 2px;
+}
+
+
+body{
+    background-color: darkslategray;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+
+    max-height: 100vh;
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.title span {
+    color: var(--color);
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    gap: 1.5rem;
+}
+
+.style-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.style-group label{
+    color: #000;
+}
+
+/*dots*/
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    position: relative;    /* 設為相對位置，為了前後區塊的絕對位置而設定 */
+    width:100%;
+    height:10px;
+    background:#40a880;
+    border-radius:50%;
+    transition:.2s;        /* 點選放大時候的漸變時間 */
+  }
+
+input[type="range"]::-webkit-slider-thumb:before,
+input[type="range"]::-webkit-slider-thumb:after
+{
+  position: absolute;
+  top: 3px;
+  width: 100%;          /* 長度很長沒關係，因為剛剛有用 overflow:hidden 了 */
+  height: 4px;
+  content:"";
+  pointer-events: none;   /* 讓滑鼠可以點擊穿透偽元素，不然會點不到下面 */
+  transition:.2s;
+}
+
+/*line*/
+input[type="range"]::-webkit-slider-thumb:before{
+  left: -1997px;
+  background: #40a880;
+}
+input[type="range"]::-webkit-slider-thumb:after {
+  left: 10px;
+  background: #efefef;
+}
+
+
+img{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: var(--spacing);
+    background-color: var(--color);
+    filter: blur(var(--blur));
+    border-radius: var(--radius);
+
+}
